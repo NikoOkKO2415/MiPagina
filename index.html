@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>IntaDog</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* Estilos adicionales */
+    .friend-requests {
+      border: 1px solid #ddd;
+      padding: 10px;
+    }
+    .friend-request {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .friend-request img {
+      width: 50px;
+      height: 50px;
+      border-radius: 50%;
+      margin-right: 10px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg bg-">
+    <a id="instaDogLink" class="navbar-brand" href="#" style="font-size: 40px;">InstaDog</a>
+    <!-- Perfil del usuario -->
+    <ul class="navbar-nav ml-auto"> 
+      <li class="nav-item">
+        <a class="nav-link" href="perfil.html">Perfil</a>
+      </li>
+    </ul>
+    <!-- Botón de modo oscuro -->
+    <li class="nav-item">
+      <button id="modoOscuroBtn" class="btn btn-dark">Modo Oscuro</button>
+    </li>
+  </nav>
+  
+  <div class="container mt-3">
+    <div class="row">
+      <div class="col-md-9">
+        <h2 class="text-center">Feed de Publicaciones</h2>
+        <!-- First Post -->
+        <div class="card mb-3">
+          <img src="img/perro1.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Hasky</h5>
+            <p class="card-text">Miren a mi Haky esta muy bonito y le saque una foto que paresco fotografo profesional,¿que te parece a ti? </p>
+            <button type="button" class="btn btn-primary like-btn">Me gusta <span class="like-count">0</span></button>
+          </div>
+          <div class="Comentario">
+            <img src="img/comentario2.jpg" alt=""><p>Raul Garcias</p>
+            <p>hey hey hey que tal chavales como estais, la verdad tu hasky esta muy bonito pero no tanto como mi gato asique callate la boca</p>
+          </div>
+          <div class="Comentario">
+            <img src="img/comentario3.jpg" alt=""><p>Samuel Deluque</p>
+            <p>heeyy guapisimo aqui vegetta 777, yo la verdad el dia de hoy veo que tu hasky esta muy mono chaval, es muy guapisimo tio, joder, que</p>
+          </div>
+          <div class="Comentar"><input type="text" placeholder="Poner Comentario"> <button type="reset" >Enviar Comentario</button></div>
+        </div>
+        
+        <!-- First Post -->
+        <div class="card mb-3">
+          <img src="img/perro2.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Momos</h5>
+            <p class="card-text">Le saque una foto a mi perro, parece que se pueden hacer memes con el jajaja</p>
+            <button type="button" class="btn btn-primary like-btn">Me gusta <span class="like-count">0</span></button>
+          </div>
+          <div class="Comentario">
+            <img src="img/comentario4.jpg" alt=""><p>Ruben Dublas</p>
+            <p>muy buenas criaturitas del señor, eeeee la verdad que este perro es bastante top, especialmente para hacerle memes, nicky nickole si o no?</p>
+          </div>
+          <div class="Comentar"><input type="text" placeholder="Poner Comentario"> <button type="reset" >Enviar Comentario</button></div>
+        </div>
+        <!-- First Post -->
+        <div class="card mb-3">
+          <img src="img/perro3.jpg" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">No me se la raza</h5>
+            <p class="card-text">Holaa, no me se la raza de mi perro ¿Algun experto que sepa que raza es?</p>
+            <button type="button" class="btn btn-primary like-btn">Me gusta <span class="like-count">0</span></button>
+          </div>
+          <div class="Comentario">
+            <img src="img/comentario3.jpg" alt=""><p>Pepito Leon</p>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit velit reprehenderit delectus voluptatem neque, suscipit soluta odio, cumque nihil labore natus consequatur nisi temporibus! Fugiat nisi voluptatem suscipit placeat ipsa!</p>
+          </div>
+          <div class="Comentar"><input type="text" placeholder="Poner Comentario"> <button type="reset" >Enviar Comentario</button></div>
+        </div>
+        <!-- Rest of the posts -->
+        <!-- Add your other posts here -->
+      </div>
+      <div class="col-md-3 ml-auto">
+        <div class="friend-requests">
+          <h2>Solicitudes de Amistad</h2>
+          <!-- Lista de solicitudes de amistad -->
+          <div class="friend-request">
+            <img src="img/perfil1.jfif" alt="Foto de perfil">
+            <div>
+              <p>Tu novia</p>
+              <button type="button" class="btn btn-success btn-aceptar">Aceptar</button>
+              <button type="button" class="btn btn-danger btn-rechazar">Rechazar</button>              
+            </div>
+          </div>
+          <div class="friend-request">
+            <img src="img/perfil2.jpg" alt="Foto de perfil">
+            <div>
+              <p>Juan Gonzales</p>
+              <button type="button" class="btn btn-success btn-aceptar">Aceptar</button>
+              <button type="button" class="btn btn-danger btn-rechazar">Rechazar</button>              
+            </div>
+          </div>
+          <div class="friend-request">
+            <img src="img/perfil3.jfif" alt="Foto de perfil">
+            <div>
+              <p>Guillermo Diaz</p>
+              <button type="button" class="btn btn-success btn-aceptar">Aceptar</button>
+              <button type="button" class="btn btn-danger btn-rechazar">Rechazar</button>              
+            </div>
+          </div>
+          <!-- Agrega más solicitudes de amistad si es necesario -->
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Contenido de la página -->
+  <div class="container">
+    <!-- Aquí va el contenido de la página -->
+  </div>
+
+  <!-- Bootstrap JS y dependencias -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <!-- Tu archivo JavaScript -->
+  <script src="script.js"></script>
+</body>
+</html>

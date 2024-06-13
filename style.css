@@ -1,0 +1,74 @@
+    .Comentario{
+        margin: 10px;
+        padding: 10px;
+        display: grid;
+    }
+    .Comentario img{
+        border-radius: 100%;
+        width: 50px;
+        height: 50px;
+        border: black solid 1px;
+        
+    }
+    .Comentario{
+        border: black solid 2px;
+        border-radius: 10px;
+    }
+    .Comentar{
+        display: grid;
+    }
+    .Comentar input{
+        margin: 10px;
+        border-radius: 10px;
+    }
+    .Comentar button{
+        background-color: rgb(179, 184, 184);
+        color: rgb(0, 0, 0);
+        margin: 10px;
+        width: 180px;
+        height: 40px;
+        border-radius: 10px;
+    }
+    /* Estilos específicos para el navbar en modo oscuro */
+    .dark-mode .navbar {
+    background-color: #222; /* Fondo oscuro para el navbar */
+    color: #fff; /* Texto claro para el navbar */
+    }
+
+    /* Estilos para el modo oscuro */
+    .dark-mode {
+    background-color: #333; /* Fondo oscuro */
+    color: #fff; /* Texto claro */
+    }   
+
+    /* Estilos específicos para el feed de publicaciones en modo oscuro */
+    .dark-mode .card {
+    background-color: #444; /* Fondo oscuro para las tarjetas de publicaciones */
+    color: #fff; /* Texto claro para las tarjetas de publicaciones */
+    }
+    .dark-mode .Comentario {
+        border: white solid 1px; /* Texto claro para las tarjetas de publicaciones */
+    }
+
+    .card{
+        border-radius: 10px;
+    }
+    .friend-requests{
+        border-radius: 10px;
+    }
+
+    .modo-oscuro {
+    color: #fff; /* Cambia el color del texto a blanco en modo oscuro */
+    }
+    /* Estilos para botones de aceptar y rechazar en modo oscuro */
+.dark-mode .btn-aceptar,
+.dark-mode .btn-rechazar {
+  background-color: #444; /* Cambia el color de fondo en modo oscuro */
+  color: #fff; /* Cambia el color del texto en modo oscuro */
+}
+
+
+
+
+    
+    
